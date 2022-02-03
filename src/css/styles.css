@@ -1,8 +1,47 @@
 /*Font*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600;700&display=swap');
 
-:root {
-	--header-height: 3rem;
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: font-family: 'IBM Plex Sans Thai Looped', sans-serif;;
+}
 
-	
+body{	
+	background: #585C68;
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555;
+}
+
+.bold{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi_bold{
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.resume{
+	width: 800px;
+	height:  auto;
+	display: flex;
+	margin:  50px auto;
+}
+
+.resume .resume_top{
+	width:  800px;
+	background: #0BB5F4;
+}
+
+.resume .resume_top .resume_profile{
+	width:  100%;
+	height: 280px;
+	background: ;
 }
