@@ -5,18 +5,17 @@
 *{
 	margin:  0;
 	padding: 0;
-	box-sizing: border-box;
 	list-style: none;
 	font-family: font-family: 'IBM Plex Sans Thai Looped', sans-serif;;
 }
 
-body{	
-	background: #585C68;
+body{
+	background: #585C66;
 	font-size: 14px;
 	line-height: 22px;
-	color: #555555;
 }
 
+/*FONTS*/
 .bold{
 	font-weight: 700;
 	font-size: 20px;
@@ -28,20 +27,42 @@ body{
 	font-size: 16px;
 }
 
+/*HEADER*/
 .resume{
-	width: 800px;
-	height:  auto;
-	display: flex;
+	width: 21cm;
+	height: 29.7cm;
 	margin:  50px auto;
 }
 
 .resume .resume_top{
-	width:  800px;
+	width:  21cm;
+	height: 300px;
 	background: #0BB5F4;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.resume .resume_top .title{
+	flex-grow: 4;
+}
+
+.resume .resume_top .adress{
+	
+}
+
+.resume .resume_top .contact_info{
+
 }
 
 .resume .resume_top .resume_profile{
-	width:  100%;
-	height: 280px;
-	background: ;
+	width: 300px;
+	height: 300px;
 }
+
+.resume .resume_top .resume_profile img{
+	width: 300px; /*1484 px; .png:  300px*/
+	height: 100%; /*1920 px; .png: 300px*/
+}
+
+/*CONTENT*/
