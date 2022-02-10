@@ -1,8 +1,13 @@
 # CV-Template-Designer
 
+### Personal Goal
+- training HTML/CSS/JS-Skills
+- trying out Vue-Framework
+
 ## state
 
--
+- index.html
+	- unfinished cv header
 
 ## goals
 
@@ -15,7 +20,7 @@
 	- extend/add table-cells
 
 ## timeline
-**until 04.02.22**
+**until 18.02.2022**
 
 - html/css-Template
 
